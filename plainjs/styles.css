@@ -33,3 +33,17 @@ button:hover {
 button:active {
   background-color: #cd4040;
 }
+
+input {
+  min-width: 250px;
+  font-size: 1em;
+  border: 1px solid #999;
+  padding: 5px;
+  border-radius: 5px;
+
+}
+
+input:focus {
+  outline: 0;
+  border: 1px solid #111;
+}
